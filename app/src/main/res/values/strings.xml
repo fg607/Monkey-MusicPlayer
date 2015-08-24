@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">退出</string>
+    <string name="exitapp">退出</string>
+    <string name="update_list">更新列表</string>
+    <string name="about">关于</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Monkey Music</string>
+</resources>

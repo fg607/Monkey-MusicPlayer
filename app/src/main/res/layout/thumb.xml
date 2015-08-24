@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:layout_height="4dip" android:layout_width="match_parent" android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/thumb" />
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/thumb" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/thumb" />
+    <item android:drawable="@drawable/thumb" />
+</selector>

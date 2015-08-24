@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/plabk"
+    android:id="@+id/playerLay"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:paddingTop="5dip"
+
+        android:layout_weight=".05">
+
+        <ImageView
+            android:id="@+id/menu_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/menu_btn"/>
+
+        <TextView
+            android:id="@+id/player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textSize="20dip"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:id="@+id/folder_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/player_name"
+            android:layout_marginLeft="50dip"
+            android:src="@drawable/music_folder"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".9"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/mp3name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:typeface="sans"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginBottom="60dip"
+            android:layout_weight=".8"/>
+
+        <SeekBar android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingTop="8dip"
+            android:layout_weight=".05"
+            android:paddingLeft="16dip"
+            android:paddingRight="16dip"
+            android:progressDrawable="@layout/seekbar_style"
+            android:thumb="@layout/thumb"/>
+
+        <TextView android:id="@+id/lrc_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:gravity="center|top"
+            android:typeface="sans"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_weight=".15"
+          />
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".05">
+
+    <ImageButton android:id="@+id/playpre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="30dip"
+        android:paddingRight="30dip"
+        android:background="@android:color/transparent"
+        android:src="@drawable/pre" />
+
+    <ImageButton android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="30dip"
+        android:paddingRight="30dip"
+        android:background="@android:color/transparent"
+        android:src="@drawable/go" />
+
+    <ImageButton android:id="@+id/playnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="30dip"
+        android:paddingRight="30dip"
+        android:background="@android:color/transparent"
+        android:src="@drawable/next" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

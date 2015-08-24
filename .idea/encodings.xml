@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/fg607/mp3player/PlayerActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/fg607/mp3player/service/PlayerService.java" charset="GBK" />
+  </component>
+</project>

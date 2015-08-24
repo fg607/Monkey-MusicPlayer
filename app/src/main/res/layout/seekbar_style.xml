@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:layout_height="4dip" android:layout_width="match_parent" android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/seekbar_back" />
+    <item android:id="@android:id/secondaryProgress">
+        <scale android:drawable="@drawable/seekbar_back" android:scaleWidth="100%" />
+    </item>
+    <item android:id="@android:id/progress">
+        <scale android:drawable="@drawable/progress" android:scaleWidth="100%" />
+    </item>
+</layer-list>
